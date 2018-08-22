@@ -8,7 +8,7 @@ def binary_search(arr, left, right, searchValue):
         if arr[midNo] == searchValue:
             return midNo
         elif arr[midNo] > searchValue:
-            return binary_search(arr,left, right-1, searchValue)
+            return binary_search(arr,left, midNo-1, searchValue)
         else:
             return binary_search(arr,midNo+1, right, searchValue)
     else:
@@ -16,7 +16,7 @@ def binary_search(arr, left, right, searchValue):
 
 arr = [12,34,44,67,88,99,101,123,145,888]
 
-searchValue = 888
+searchValue = 101
 
 result = binary_search(arr, 0, len(arr)-1, searchValue)
  
