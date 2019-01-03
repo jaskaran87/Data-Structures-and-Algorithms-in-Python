@@ -12,11 +12,11 @@ print(date.day)
 print(date.year)
 print(date.month)
 
-#today date as a str
+#change  date objct into  str
 datetime.today().strftime('%Y-%m-%d')
 print(datetime.today().strftime('%Y-%m-%d'))
 
-#string to date object
+#change string to date object
 datetime.strptime('20/02/2018','%d/%m/%Y')
 print(datetime.strptime('20/02/2018','%d/%m/%Y'))
 

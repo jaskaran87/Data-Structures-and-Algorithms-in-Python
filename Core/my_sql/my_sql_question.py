@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/6107167/mysql-delete-duplicate-records-but-keep-latest
