@@ -13,7 +13,7 @@ print(date.year)
 print(date.month)
 
 #change  date objct into  str
-datetime.today().strftime('%Y-%m-%d')
+datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 print(datetime.today().strftime('%Y-%m-%d'))
 
 #change string to date object
@@ -22,3 +22,7 @@ print(datetime.strptime('20/02/2018','%d/%m/%Y'))
 
 # add days in date object
 to_date = datetime.today() + timedelta(days=1)
+
+datetime.now().strftime('%Y%m%d%H%M%S')
+
+ 
