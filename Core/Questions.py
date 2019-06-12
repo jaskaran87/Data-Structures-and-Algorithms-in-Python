@@ -114,7 +114,3 @@ what is the time compatibility in linear search and binary search
 
 
 '''  
-1	Add GST column in customer excel file to upload	We have gst column in customer add option but not in excel file to upload it.Kindly add it.	Web app	Feature	open	Rohit	priority 1
-2	Cash Discount option giiven to add amount to Account dept on order.Web App	 	Web App	feature	open	rohit	priority 2
-3	Required product code column on order invoice in web app.	 	Web app	feature	open	rohit	priority 3
-4	Move or copy all customers from one sales rep to another features nnnot working	 	Web app	Error	open	Rohit	priority 4
