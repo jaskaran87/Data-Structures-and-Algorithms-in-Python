@@ -33,3 +33,5 @@ emp_1.fullname = 'Amandeep singh'
 print(emp_1.fullname)
 
 del emp_1.fullname
+
+print(emp_1.fullname)
